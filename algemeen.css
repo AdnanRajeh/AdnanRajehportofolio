@@ -64,3 +64,148 @@ a, a:link, a:visited{
     text-shadow: 2px 3px rgba(0, 0, 0, 0.40);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 80rem) { 
+    body{
+        width: 40rem;
+        overflow-x: hidden;
+        
+    }
+    header{
+        padding: 0;
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header>ul{
+        font-size: 1.2rem;
+
+    } 
+    
+    header>ul>li{
+        padding: 0rem 0rem;
+
+    }
+    
+    header>ul>li:hover{
+        font-size: 150%;
+    }
+
+    .hetbegin{
+        min-height: 120rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .divv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 3rem ;
+        height: 30%;
+    }
+
+    .divv>div{
+       display: flex;
+       flex-direction: column;
+       padding: 0rem; 
+    }
+
+    .hetbegin>.divv>div>img:hover{
+        width: 17rem;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .hetbegin>.hetbegintext{
+        width: 25rem;
+        height: 70%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        position: relative;
+    }
+    .hetbegin>.hetbegintext>h1{
+        padding-left: 0rem;
+    }
+
+    .hetbegin>.hetbegintext>div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hetbegin>.hetbegintext>div:hover{
+        transform: none;
+       padding: 0rem;
+
+    }
+
+    .hetbegin>.hetbegintext>div>p{
+        align-items: center;
+        width: 20ch;
+        padding: 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .mee{
+        padding:0rem 20rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        
+    }
+    .mee>div>p{
+        width: 30ch;
+    }
+
+    .contact{
+        width: 100%;
+        padding-top: 5rem;
+    }
+
+    .contact>ul{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .contact>ul>li{
+        width: 100%;
+    }
+
+    .colums{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .colums1{
+        width: 100%;
+    }
+    .colums1>ul{
+        width: 100%;
+    }
+    .colums1>ul>li{
+        display: flex;
+        flex-direction: column;
+    }
+    .talen>h3{
+        width: 20ch;
+    }
+    .colums2{
+        width: 100%;
+      }
+}   
